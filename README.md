@@ -1,106 +1,111 @@
-# 02 Advanced CSS: Portfolio
+# [Module 2] Advanced CSS: Portfolio
 
-## Your Task
+## What I Learned From This Project
+Creating a portfolio from scratch is essential for showcasing skills and talents to potential employers. This project provided practice in using flexbox, media queries, and CSS variables, which are vital for creating responsive and visually appealing web pages. Additionally, it reinforced the importance of having deployed web applications to enhance job search prospects.
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+# Project Overview
+This project involves building a portfolio page that can be expanded as more projects are completed. It highlights the user's best work samples and demonstrates the thought processes behind them. This portfolio will serve as a critical tool during job searches, making a strong first impression on potential employers.
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+## Details
+The project requirements were:
 
-With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+- **Implementing a responsive layout using flexbox and media queries**
+- **Using CSS variables for consistency and maintainability**
+- **Creating a visually appealing design to showcase web applications**
+- **Ensuring the portfolio is live with at least one deployed application**
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course. However, at least one application should be live. So you can add on Challenge 1's deployed application or Module's 1 Mini Project's deployed application.
+## Requirements
 
-Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first Challenge, we follow the AS AN / I WANT / SO THAT format. 
+The following criteria defined the scope of this assignment:
 
+<details>
+  <summary>Agile Project Management Considerations</summary>
 
-## User Story
+### 1. User Story:
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+    AS AN employer
+    I WANT to view a potential employee's deployed portfolio of work samples
+    SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
+### 2. Acceptance Criteria:
 
-## Acceptance Criteria
+    GIVEN I need to sample a potential employee's previous work
+    WHEN I load their portfolio
+    THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+    WHEN I click one of the links in the navigation
+    THEN the UI scrolls to the corresponding section
+    WHEN I am presented with the developer's work
+    THEN I am presented with a section containing titled images of the developer's applications
+    WHEN I click on an image in the portfolio
+    THEN I am taken to that deployed application
+    WHEN I resize the page or view the site on various screens and devices
+    THEN I am presented with a responsive layout that adapts to my viewport
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+### 3. Mockup:
 
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
-```
+    The following animation shows the web application's appearance and functionality:
 
+<details>
+  <summary>Provided Mockup Screenshot</summary>
 
-## Mock-Up
+![Alt text](./assets/images/02-advanced-css-homework-demo.gif)
+  
+</details>
+    
 
-The following animation shows the web application's appearance and functionality:
+### 4. Instructions for Submission:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+    You are required to submit BOTH of the following for review:
 
+    - The URL of the deployed application.
+    - The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
-## Grading Requirements
+</details>
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Submission
+GitHub repo
+    - [Insert GitHub Repository URL]
 
-This Challenge is graded based on the following criteria: 
+Hosted Webpage
+    - [Insert Deployed Application URL]
 
-### Technical Acceptance Criteria: 40%
+---
 
-* Satisfies all of the above acceptance criteria.
+## Installation
+To run this project locally, (assuming you have git installed) input the following code in your terminal:
 
-### Deployment: 32%
+`git clone [Insert GitHub Repository URL] <PATH_TO_DESTINATION_DIRECTORY>`
 
-* Application deployed at live URL.
+## Usage
+The live site may be viewed at the following URL:
 
-* Application loads with no errors.
+[Insert Deployed Application URL]
 
-* Application GitHub URL submitted.
+<details>
+  <summary>Screenshot of the page</summary>
 
-* GitHub repository contains application code.
+![Alt text](./assets/images/01-html-css-git-homework-demo.png)
 
-### Application Quality: 15%
+</details>
+&nbsp;
 
-* Application resembles the mock-up functionality provided in the Challenge instructions.
+# Credits
+The original files for this assignment may be found here if you wish to recreate this project:
+- https://git.bootcampcontent.com/Rutgers-University/RUT-VIRT-FSF-FT-06-2024-U-LOLC.git
 
-### Repository Quality: 13%
+I used the following guide to create this README.md file:
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-* Repository has a unique name.
+Some of the code that I implemented was repurposed and/or translated (converted, re-wrote, learned, etc.) from various resoures and answers found on a handful of sites and forums including:
 
-* Repository follows best practices for file structure and naming conventions.
+- https://stackoverflow.com/
+- https://reddit.com/
+- https://github.com/orgs/community/discussions/
+- https://w3schools.com/html/
+- https://w3schools.com/css/
+- https://docs.github.com/en
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+# License
+This project has an MIT License. For more information read the LICENSE file.
 
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+---
