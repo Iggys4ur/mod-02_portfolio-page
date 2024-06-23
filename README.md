@@ -64,10 +64,10 @@ The following criteria defined the scope of this assignment:
 
 ## Submission
 GitHub repo
-    - [GitHub Repository URL](https://github.com/Iggys4ur/portfolio-page.git)
+    - [GitHub Repository](https://github.com/Iggys4ur/portfolio-page.git)
 
 Hosted Webpage
-    - [Deployed Application URL]()
+    - [Deployed Application]()
 
 ---
 
@@ -79,7 +79,7 @@ To run this project locally, (assuming you have git installed) input the followi
 ## Usage
 The live site may be viewed at the following URL:
 
-[Deployed Application URL]()
+[Deployed Application]()
 
 <details>
   <summary>Screenshot of the deployed application</summary>
