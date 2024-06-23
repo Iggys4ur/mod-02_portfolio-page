@@ -64,27 +64,27 @@ The following criteria defined the scope of this assignment:
 
 ## Submission
 GitHub repo
-    - [Insert GitHub Repository URL]
+    - [GitHub Repository URL](https://github.com/Iggys4ur/portfolio-page.git)
 
 Hosted Webpage
-    - [Insert Deployed Application URL]
+    - [Deployed Application URL]()
 
 ---
 
 ## Installation
 To run this project locally, (assuming you have git installed) input the following code in your terminal:
 
-`git clone [Insert GitHub Repository URL] <PATH_TO_DESTINATION_DIRECTORY>`
+`git clone https://github.com/Iggys4ur/portfolio-page.git <PATH_TO_DESTINATION_DIRECTORY>`
 
 ## Usage
 The live site may be viewed at the following URL:
 
-[Insert Deployed Application URL]
+[Deployed Application URL]()
 
 <details>
-  <summary>Screenshot of the page</summary>
+  <summary>Screenshot of the deployed application</summary>
 
-![Alt text](./assets/images/01-html-css-git-homework-demo.png)
+![Alt text]()
 
 </details>
 &nbsp;
@@ -98,12 +98,12 @@ I used the following guide to create this README.md file:
 
 Some of the code that I implemented was repurposed and/or translated (converted, re-wrote, learned, etc.) from various resoures and answers found on a handful of sites and forums including:
 
-- https://stackoverflow.com/
-- https://reddit.com/
-- https://github.com/orgs/community/discussions/
-- https://w3schools.com/html/
-- https://w3schools.com/css/
-- https://docs.github.com/en
+- [Stack Overflow](https://stackoverflow.com/)
+- [Reddit](https://reddit.com/)
+- [GitHub Community](https://github.com/orgs/community/discussions/)
+- [W3 Schools HTML](https://w3schools.com/html/)
+- [W3 Schools CSS](https://w3schools.com/css/)
+- [GitHub Documentation](https://docs.github.com/en)
 
 # License
 This project has an MIT License. For more information read the LICENSE file.
