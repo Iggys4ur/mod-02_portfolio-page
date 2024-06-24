@@ -1,3 +1,215 @@
 /*
-
+Resets
 */
+
+* {
+    margin: 12px;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body, h1, p, a {
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5vw;
+}
+
+p {
+    font-size: 1.25vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    display: flex;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 0px 12px
+}
+
+.pfp img {
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+}
+
+.profile-details {
+    display: inline-block;
+    width: 100%;
+}
+
+.nav-bar {
+    margin-left: auto;
+    justify-content: end;
+    display: flex;
+}
+
+.nav-link-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-link-box {
+    padding: 8px;
+}
+
+.nav-link {
+    font-size: 1.25vw;
+}
+
+main {
+    margin: 2% 8%;
+}
+
+.main-header {
+    display: inline-block;
+    margin: 1% 0 3%;
+}
+
+.main-title {
+    font-size: 5vw;
+}
+
+.main-description {
+    font-size: 1vw;
+}
+
+.content-div {
+    height: 10vw;
+}
+
+#about-content p {
+    margin: 12px
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75vw;
+}
+
+
+
+
+
+
+
+
+/* General container styles */
+.content-block {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.content-header {
+    margin-bottom: 20px;
+}
+
+.content-title-box h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+/* Projects section styles */
+#projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#projects-content h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    width: calc(20vw - 20px); /* Make the first project box larger */
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    height: calc(15vw - 20px); /* Adjust height as needed */
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-large {
+    width: calc(60vw - 20px); /* Make the first project box larger */
+    height: calc(25vw - 20px); /* Adjust height as needed */
+}
+
+.project h3 {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.project a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.project:hover {
+    transform: scale(1.1);
+    background-color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .project, .project-large {
+        width: calc(50% - 20px); /* Two boxes per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .project, .project-large {
+        width: 100%; /* One box per row on very small screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
