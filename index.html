@@ -1,33 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Professional Portfolio</title>
-    </head>
 
-    <body>
-        <header>
-            <section>
-                <h1 class="site-title">Professional Portfolio</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Portfolio | Eli Davenport</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <section class="profile">
+            <section class="pfp">
+                <img src="./Assets/images/pfp.png">
             </section>
+            <section class="profile-details">
+                <h1 class="profile-name">FirstName LastName</h1>
+                <p class="profile-tagline">Aspiring Full-Stack Developer</p>
+            </section>
+        </section>
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="nav-bar">
+            <ul class="nav-link-list">
+                <li class="nav-link-box">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-link-box">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-link-box">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+                <li class="nav-link-box">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="page-content">
+        <header class="main-header">
+            <h1 class="main-title">Portfolio</h1>
+            <p class="main-description">
+                A brief introduction to who I am, the things that make me passionate, the projects I've worked on, what
+                I've accomplished, and how to get in touch with me.
+            </p>
         </header>
 
-        <main>
-            
-        </main>
+        <section class="content-block">
+            <header class="content-header">
+                <section class="content-title-box">
+                    <h1 id="about">About Me</h1>
+                </section>
+            </header>
+            <section class="content-box">
+                <article id="about-content">
+                    <p> Hello! My name is FirstName LastName, and I'm an aspiring full-stack developer currently pursuing a
+                        Bachelor's degree in Computer Science at XYZ University. My journey into the world of coding
+                        began in high school, where I discovered my passion for technology and problem-solving. Since
+                        then, I've been dedicated to honing my skills and expanding my knowledge in various programming
+                        languages and technologies.</p>
+                    <p>Throughout my college career, I've had the opportunity to work on several exciting projects that
+                        have allowed me to gain hands-on experience in both front-end and back-end development. From
+                        building responsive websites using HTML, CSS, and JavaScript to developing server-side
+                        applications with Node.js and Express, I've enjoyed every step of the process. One of my
+                        proudest accomplishments is a collaborative project where my team and I created a web
+                        application to help local businesses manage their inventory and sales more efficiently.</p>
+                    <p>In addition to my academic pursuits, I'm actively involved in the tech community at XYZ
+                        University. As a member of the Computer Science Club, I've participated in hackathons, coding
+                        competitions, and workshops that have further fueled my passion for development. I also enjoy
+                        sharing my knowledge with others, which is why I volunteer as a peer tutor for introductory
+                        programming courses. Helping my peers understand complex concepts and seeing their progress is
+                        incredibly rewarding.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, reading tech blogs, or working
+                        on personal projects to enhance my skills. I believe that continuous learning and staying
+                        updated with the latest industry trends are crucial for success in this ever-evolving field. I'm
+                        excited about the future and look forward to contributing to innovative projects that make a
+                        difference. Thank you for visiting my website, and feel free to reach out if you'd like to
+                        connect!</p>
+                </article>
+            </section>
+        </section>
 
-        <footer>
-            
-        </footer>
-    </body>
+        <section class="next-section">
+            <a href="#projects">next section ></a>
+        </section>
+
+        <div class="content-div"></div>
+
+        <section class="content-block">
+            <header class="content-header">
+                <section class="content-title-box">
+                    <h1 id="projects">My Projects</h1>
+                </section>
+            </header>
+            <section class="content-box">
+                <article id="projects-content">
+
+                    <div class="project project-large" style="background-image: url('./assets/images/app1.jpg');">
+                        <h3>Project One</h3>
+                        <a href="./assets/pages/app1.html" target="_blank"></a>
+                    </div>
+
+                    <div class="project" style="background-image: url('./assets/images/app1.jpg');">
+                        <h3>Project Two</h3>
+                        <a href="./assets/pages/app2.html" target="_blank"></a>
+                    </div>
+
+                    <div class="project" style="background-image: url('./assets/images/app1.jpg');">
+                        <h3>Project Three</h3>
+                        <a href="./assets/pages/app3.html" target="_blank"></a>
+                    </div>
+
+                    <div class="project" style="background-image: url('./assets/images/app1.jpg');">
+                        <h3>Project Four</h3>
+                        <a href="./assets/pages/app4.html" target="_blank"></a>
+                    </div>
+
+                    <div class="project" style="background-image: url('./assets/images/app1.jpg');">
+                        <h3>Project Five</h3>
+                        <a href="./assets/pages/app5.html" target="_blank"></a>
+                    </div>
+
+                    <div class="project" style="background-image: url('./assets/images/app1.jpg');">
+                        <h3>Project Six</h3>
+                        <a href="./assets/pages/app6.html" target="_blank"></a>
+                    </div>
+
+                </article>
+            </section>
+        </section>
+
+        <section class="next-section">
+            <a href="#resume">next section ></a>
+        </section>
+
+        <div class="content-div"></div>
+
+        <section class="content-block">
+            <header class="content-header">
+                <section class="content-title-box">
+                    <h1 id="resume">Resume</h1>
+                </section>
+            </header>
+            <section class="content-box">
+                <article id="resume-content">
+                    <h2>Education</h2>
+                    <p><strong>XYZ University</strong>, Bachelor of Science in Computer Science</p>
+                    <p>Expected Graduation: May 2025</p>
+
+                    <h2>Experience</h2>
+                    <p><strong>Front-End Developer Intern</strong> - ABC Tech Solutions</p>
+                    <p>June 2023 - August 2023</p>
+                    <ul>
+                        <li>Developed and maintained user interfaces using HTML, CSS, and JavaScript.</li>
+                        <li>Collaborated with the design team to create responsive and visually appealing web pages.
+                        </li>
+                        <li>Assisted in debugging and optimizing web applications for performance.</li>
+                    </ul>
+
+                    <p><strong>Peer Tutor</strong> - XYZ University</p>
+                    <p>September 2022 - Present</p>
+                    <ul>
+                        <li>Provided tutoring support for introductory programming courses.</li>
+                        <li>Helped students understand complex concepts in Java, Python, and C++.</li>
+                        <li>Organized study sessions and created educational resources for students.</li>
+                    </ul>
+
+                    <h2>Projects</h2>
+                    <p><strong>Inventory Management Web Application</strong></p>
+                    <p>Developed a full-stack web application to help local businesses manage inventory and sales.</p>
+                    <ul>
+                        <li>Implemented the front-end using React.js and Bootstrap.</li>
+                        <li>Built the back-end with Node.js, Express, and MongoDB.</li>
+                        <li>Integrated RESTful APIs for seamless data exchange between front-end and back-end.</li>
+                    </ul>
+
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Programming Languages: JavaScript, Python, Java, C++</li>
+                        <li>Web Technologies: HTML, CSS, React.js, Node.js, Express, MongoDB</li>
+                        <li>Tools & Platforms: Git, GitHub, Docker, Visual Studio Code</li>
+                        <li>Soft Skills: Problem-solving, teamwork, communication, time management</li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+
+        <section class="next-section">
+            <a href="#contact">next section ></a>
+        </section>
+
+        <div class="content-div"></div>
+
+        <section class="content-block">
+            <header class="content-header">
+                <section class="content-title-box">
+                    <h1 id="contact">Contact</h1>
+                </section>
+            </header>
+            <section class="content-box">
+                <article id="contact-content">
+                    <p>If you have any questions, would like to discuss a potential project, or just want to connect,
+                        feel free to reach out to me using the contact information below. I'm always open to new
+                        opportunities and collaborations!</p>
+
+                    <h2>Email</h2>
+                    <p><a href="mailto:firstname.lastname@example.com">firstname.lastname@example.com</a></p>
+
+                    <h2>LinkedIn</h2>
+                    <p><a href="https://www.linkedin.com/in/firstname-lastname">linkedin.com/in/firstname-lastname</a>
+                    </p>
+
+                    <h2>GitHub</h2>
+                    <p><a href="https://github.com/firstname-lastname">github.com/firstname-lastname</a></p>
+
+                    <h2>Phone</h2>
+                    <p>(123) 456-7890</p>
+
+                    <h2>Social Media</h2>
+                    <p>Feel free to follow me on my social media profiles:</p>
+                    <ul>
+                        <li><a href="https://twitter.com/firstname_lastname">Twitter</a></li>
+                        <li><a href="https://www.instagram.com/firstname.lastname">Instagram</a></li>
+                        <li><a href="https://www.facebook.com/firstname.lastname">Facebook</a></li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p class="footer-text">Eli Davenport aka Iggys4ur - All rights reserved. | &copy; 2024</p>
+    </footer>
+</body>
+
 </html>

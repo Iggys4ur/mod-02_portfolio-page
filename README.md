@@ -84,7 +84,7 @@ The live site may be viewed at the following URL:
 <details>
   <summary>Screenshot of the deployed application</summary>
 
-![Alt text]()
+![Alt text](./Assets/images/02-advanced-css-homework-demo.gif)
 
 </details>
 &nbsp;
