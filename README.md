@@ -67,7 +67,7 @@ GitHub repo
     - [GitHub Repository](https://github.com/Iggys4ur/portfolio-page.git)
 
 Hosted Webpage
-    - ![Deployed Application](https://iggys4ur.github.io/portfolio-page/)
+    - [Deployed Application](https://iggys4ur.github.io/portfolio-page/)
 
 ---
 
