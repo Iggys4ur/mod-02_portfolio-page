@@ -67,7 +67,7 @@ GitHub repo
     - [GitHub Repository](https://github.com/Iggys4ur/portfolio-page.git)
 
 Hosted Webpage
-    - [Deployed Application]()
+    - ![Deployed Application](https://iggys4ur.github.io/portfolio-page/)
 
 ---
 
@@ -79,12 +79,12 @@ To run this project locally, (assuming you have git installed) input the followi
 ## Usage
 The live site may be viewed at the following URL:
 
-[Deployed Application]()
+[Deployed Application](https://iggys4ur.github.io/portfolio-page/)
 
 <details>
   <summary>Screenshot of the deployed application</summary>
 
-![Alt text](./Assets/images/02-advanced-css-homework-demo.gif)
+![Alt text](./Assets/images/final-result.jpeg)
 
 </details>
 &nbsp;
